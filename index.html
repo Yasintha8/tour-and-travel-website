@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Tour & Travel Website Design</title>
+</head>
+<body>
+    <nav>
+    <div class="nav_header">
+        <div class="nav_logo">
+            <a href="#">Travel<span>Lanka</span></a>
+        </div>
+        <div class="nav_menu_btn" id="menu-btn">
+            <i class="ri-menu-3-line"></i>
+        </div>
+    </div>
+    <ul class="nav_links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#package">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav_btns">
+        <button class="btn">Register</button>
+    </div>
+    </nav>
+
+    <header class="section_container header_container" id="home">
+        <div class="header_content">
+            <h1><span>Let's</span> Create Memorable Journey</h1>
+            <p class="section_description">
+                Embark on your dream journey with us! Discover stunning destinations, thrilling adventures, and personalized travel experiences tailored to your wanderlust.
+            </p>
+
+
+            <form action="/">
+                <div class="input_group">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" placeholder="Kandy"/>
+                </div>
+                <div class="input_group">
+                    <label for="date">Date</label>
+                    <input type="text" name="date" placeholder="27 Nov, 2024"/>
+                </div>
+                <div class="input_group">
+                    <label for="price">Price</label>
+                    <input type="text" name="price" placeholder="Rs. 50,000"/>
+                </div>
+
+                <button class="btn"><i class="ri-search-line"></i></button>
+            </form>
+        </div>
+
+        <div class="header_image">
+            <img src="Images/header-1.jpg" alt="header"/>
+            <img src="Images/header-2.jpg" alt="header"/>
+            <img src="Images/header-3.jpg" alt="header"/>
+            <img src="Images/bg.png" alt="bg"/>
+        </div>
+    </header>
+
+    <section class="section_container choose_container" id="about">
+        <div class="choose_image">
+            <img src="Images/choose.jpg" alt="choose"/>
+        </div>
+        <div class="choose_content">
+            <p class="section_subheader">Why Choose Us?</p>
+            <h2 class="section_header">Your Dream Vacation Starts <span>With Us</span></h2>
+            <ul class="choose_list">
+            <li>
+                <span><i class="ri-verified-badge-fill"></i></span>
+                <div>
+                    <h4>Best Price Gurantee</h4>
+                    <p>
+                        We Offer Compatitive Price Gurantee on All Packages
+                    </p>
+                </div>
+            </li>
+            <li>
+                <span><i class="ri-calendar-fill"></i></span>
+                <div>
+                    <h4>Booking Options</h4>
+                    <p>
+                        We Offer Compatitive Price Gurantee on All Packages
+                    </p>
+                </div>
+            </li>
+            <li>
+                <span><i class="ri-road-map-fill"></i></span>
+                <div>
+                    <h4>Revising Track Map</h4>
+                    <p>
+                        We Offer Compatitive Price Gurantee on All Packages
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </section>
+
+    <section class="section_container popular_container" id="package">
+        <img src="Images/bg.png" alt="bg" class="popular_bg"/>
+        <p class="section_subheader">famous Destinations</p>
+        <h2 class="section_header">Our Popular <span>Destinations</span></h2>
+
+            <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <div class="popular_card">
+                <img src="Images/popular-1.jpg" alt="popular"/>
+                <div class="popular_content">
+                    <div class="popular_rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        4.0(34)
+                    </div>
+                    <h4>Kandy</h4>
+                    <p><span>Rs.25,000/=</span> Per Person</p>
+                    <div class="popular_card_footer">
+                        <div>
+                            <span><i class="ri-time-line"></i></span>4 Day's
+                        </div>
+                        <div>
+                            <span><i class="ri-group-3-fill"></i></span>15+
+                        </div>
+                        <div>
+                            <span><i class="ri-map-pin-2-fill"></i></span>Sri Lanka
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="popular_card">
+                <img src="Images/popular-2.jpg" alt="popular"/>
+                <div class="popular_content">
+                    <div class="popular_rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        4.5(55)
+                    </div>
+                    <h4>Kandy</h4>
+                    <p><span>Rs.10,000/=</span> Per Person</p>
+                    <div class="popular_card_footer">
+                        <div>
+                            <span><i class="ri-time-line"></i></span>4 Day's
+                        </div>
+                        <div>
+                            <span><i class="ri-group-3-fill"></i></span>15+
+                        </div>
+                        <div>
+                            <span><i class="ri-map-pin-2-fill"></i></span>Sri Lanka
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="popular_card">
+                <img src="Images/popular-3.jpg" alt="popular"/>
+                <div class="popular_content">
+                    <div class="popular_rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        5.0(60)
+                    </div>
+                    <h4>Kandy</h4>
+                    <p><span>Rs.20,000/=</span> Per Person</p>
+                    <div class="popular_card_footer">
+                        <div>
+                            <span><i class="ri-time-line"></i></span>5 Day's
+                        </div>
+                        <div>
+                            <span><i class="ri-group-3-fill"></i></span>10+
+                        </div>
+                        <div>
+                            <span><i class="ri-map-pin-2-fill"></i></span>Sri Lanka
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="popular_card">
+                <img src="Images/popular-4.jpg" alt="popular"/>
+                <div class="popular_content">
+                    <div class="popular_rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        5.5(40)
+                    </div>
+                    <h4>Kandy</h4>
+                    <p><span>Rs.30,000/=</span> Per Person</p>
+                    <div class="popular_card_footer">
+                        <div>
+                            <span><i class="ri-time-line"></i></span>5 Day's
+                        </div>
+                        <div>
+                            <span><i class="ri-group-3-fill"></i></span>25+
+                        </div>
+                        <div>
+                            <span><i class="ri-map-pin-2-fill"></i></span>Sri Lanka
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="popular_card">
+                <img src="Images/popular-5.jpg" alt="popular"/>
+                <div class="popular_content">
+                    <div class="popular_rating">
+                        <span><i class="ri-star-fill"></i></span>
+                        5.5(50)
+                    </div>
+                    <h4>Kandy</h4>
+                    <p><span>Rs.40,000/=</span> Per Person</p>
+                    <div class="popular_card_footer">
+                        <div>
+                            <span><i class="ri-time-line"></i></span>5 Day's
+                        </div>
+                        <div>
+                            <span><i class="ri-group-3-fill"></i></span>20+
+                        </div>
+                        <div>
+                            <span><i class="ri-map-pin-2-fill"></i></span>Sri Lanka
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+    </div>
+    </section>
+
+    <section class="section_container explore_container">
+        <div class="explore_image">
+            <img src="Images/explore.jpg" alt="explore"/>
+        </div>
+        <div class="explore_content">
+            <p class="section_subheader">Explore With Us</p>
+            <h2 class="section_header">
+                Let's Start <span>Exploring</span>
+            </h2>
+            <p class="section_description">
+                Uncover hidden gems and iconic destinations as you embark on a journey of a lifetime. With curated travel 
+                experiences, personalized itineraries, and unforgettable adventures, your next great story begins here.
+            </p>
+            <div class="explore_btn">
+                <button class="btn">About US</button>
+            </div>
+            <div class="explore_grid">
+                <div>
+                    <h4>14</h4>
+                    <p>Years<br />Experiences</p>
+                </div>
+                <div>
+                    <h4>67+</h4>
+                    <p>Destinations<br />Celebrations</p>
+                </div>
+                <div>
+                    <h4>320+</h4>
+                    <p>Happy<br />Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_container client_container">
+        <img src="Images/bg.png" alt="bg" class="client_bg"/>
+        <p class="section_subheader">What Our Client Say's</p>
+        <h2 class="section_header">Client <span>Testimonials</span></h2>
+        <div class="client_card active">
+            <img src="Images/client-1.jpg" alt="client"/>
+            <div class="client_content">
+                <h4>Ashan Fernando</h4>
+                <h5>Travel Enthusiast</h5>
+                <p>
+                    Amazing experience! Everything was perfectly organized.
+                </p>
+            </div>
+        </div>
+
+        <div class="client_card">
+            <img src="Images/client-2.jpg" alt="client"/>
+            <div class="client_content">
+                <h4>Kusal Perera</h4>
+                <h5>Software Engineer</h5>
+                <p>
+                    The best travel service I’ve ever used. Highly recommend!
+                </p>
+            </div>
+        </div>
+
+        <div class="client_card">
+            <img src="Images/client-3.jpg" alt="client"/>
+            <div class="client_content">
+                <h4>kamal Perera</h4>
+                <h5>Travel Blogger</h5>
+                <p>
+                    Unforgettable trip! Can’t wait to book my next adventure.
+                </p>
+            </div>
+        </div>
+        <div class="client_btns">
+            <button class="btn" id="prev">
+                <i class="ri-arrow-left-fill"></i>
+            </button>
+            <button class="btn" id="next">
+                <i class="ri-arrow-right-line"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="section_container subscribe_container" id="contact">
+        <h2 class="section_header">
+            Subscribe To Get The Latest News <span>About Us</span>
+        </h2>
+        <p class="section_description">
+            Stay updated with exclusive offers, exciting destinations, and travel tips. Subscribe now and never miss a moment of adventure!
+        </p>
+        <form action="/">
+            <input type="text" placeholder="Your Email"/>
+            <button class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="section_container footer_container">
+            <div class="footer_col">
+                <div class="footer_logo">
+                    <a href="#">TravelLanka</a>
+                </div>
+                <p>
+                    TravelLanka—your trusted companion for unforgettable adventures. Explore, dream, and discover the world with us.
+                </p>
+                <ul class="footer_socials">
+                    <li>
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-pinterest-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h4>Services</h4>
+                <ul class="footer_links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Sevices</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_col">
+                <h4>Instagram</h4>
+                <div class="footer_col_flex">
+                    <img src="Images/instagram-1.jpg" alt="Instagram"/>
+                    <img src="Images/instagram-2.jpg" alt="Instagram"/>
+                    <img src="Images/instagram-3.jpg" alt="Instagram"/>
+                    <img src="Images/instagram-4.jpg" alt="Instagram"/>
+                    <img src="Images/instagram-5.jpg" alt="Instagram"/>
+                    <img src="Images/instagram-6.jpg" alt="Instagram"/>
+                </div>
+            </div>
+
+            <div class="footer_col">
+                <h4>Conatct</h4>
+                <ul class="footer_links">
+                    <li>
+                        <a href="#">
+                            <span><i class="ri-phone-fill"></i></span> +94 765865283
+                         </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="ri-map-fill"></i></span> Sri Lanka, Matara
+                         </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="ri-mail-fill"></i></span> info@travelLanka
+                         </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bar">
+            Copyright @ 2024 Wickz Digital. All rights reserved.
+        </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
