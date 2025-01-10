@@ -1,6 +1,5 @@
 # Tour and Travel Website
-
-
+<img src="https://github.com/Yasintha8/tour-and-travel-website/blob/main/Images/Cover.png">
 This is a website for a Tour and Travel company that offers vacation packages, booking services, and travel resources.
 
 ## Installation
