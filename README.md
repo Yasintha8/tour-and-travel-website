@@ -4,7 +4,7 @@ This is a website for a Tour and Travel company that offers vacation packages, b
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/username/tour-and-travel-website.git`
+1. Clone the repository: https://yasintha8.github.io/tour-and-travel-website/
 2. Open the `index.html` file in your browser.
 
 ## Usage
